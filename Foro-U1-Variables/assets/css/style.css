@@ -1,0 +1,91 @@
+:root{
+    --color-primario: #0A66C2;
+    --color-font-boton1: #FFFFFF; 
+    --color-text: #000000E6;
+    --controls-width: 385px;
+    --font-style: 'arial'; 
+    --font-size16: 16px;
+    --font-size32: 32px;
+    --padding28: 28px 12px 6px 28px;
+    --paddin24: 24px 12px 12px 24px;
+    --padding20: 20px 10px 10px 20px;
+    --border-radius: 30px;
+    --border-radiocontrols: 3px;
+    --border-butons: 1px gray solid;
+    --margin-left: 6px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.linkedin{
+    color: var(--color-primario);
+    font-size: var(--font-size32);
+    font-style: var(--font-style);
+
+}
+
+.formulario-registro{
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: 1.4rem;
+    box-shadow: 0.5px 3px 5px;
+    border-radius: 4px;
+}
+
+.formulario-registro h1{
+    font-size: var(--font-size32);
+    color: var(--color-text);
+    font-family: var(--font-style);
+    border-left: var(--margin-left);
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.formulario-registro p{
+    color: var(--color-text);
+    font-size: var(--font-size16);
+    font-family: var(--font-style);
+    padding: 10px;
+}
+
+.controls{
+    width: var(--controls-width);
+    padding: var(--padding28);
+    margin-bottom: 16px;
+    margin-left: var(--margin-left);
+    border: var(--border-butons);
+    border-radius: var(--border-radiocontrols);
+    font-size: var(--font-size16);
+    font-family: var(--font-style);
+
+}
+
+.formulario-registro .boton1{
+    width: var(--controls-width);
+    background-color: var(--color-primario);
+    color: var(--color-font-boton1);
+    padding: var(--paddin24);
+    border-radius: var(--border-radius);
+    border: var(--border-butons);
+}
+
+.formulario-registro .botons{
+    width: var(--controls-width);
+    color: var(--color-text);
+    border-radius: var(--border-radius);
+    padding: var(--padding20);
+    border: var(--border-butons);
+    font-size: var(--font-size16);
+    font-family: var(--font-style);
+}
